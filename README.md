@@ -1,12 +1,17 @@
-# TEST task
-API для user и его галереи, регистрация и модель
+# Hello, this is my awesome gallery.
 
-Требования:
+Features:
++ Autorization
++ Registration
++ CRUD for pics
++ Delete all pics from db for admin
 
-+ Всё сделать в виде АПИ (в DRF)
-+ CRUD к картинкам
-+ Сделать роут для удаления всех картинок из базы для
-администратора
-+ Любая авторизация, регистрация
-+ Роут на получение текущего юзера
+Structure:
 
+1. app/models:
+    + Picture
+
+Technologys:
+
++ Dockerfile
++ docker-compose
